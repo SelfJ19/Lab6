@@ -22,13 +22,13 @@ namespace Lab6
 
         public string ListWeapons()
         {
-            string info = "\nWeapons -------------------------------";
+            string info = "\nWeapons ------------------------------------------";
             foreach (Item item in Contents)
             {
                 if (item is Weapon)
                 {
                     info += $"\n{item}";
-                    info += "\n-----------------------------------";
+                    info += "\n------------------------------------------------";
                 }
             }
             return info;
@@ -36,13 +36,13 @@ namespace Lab6
 
         public string ListClues()
         {
-            string info = "\nClues -------------------------------";
+            string info = "\nClues --------------------------------------------";
             foreach(Item item in Contents)
             {
                 if(item is Clue)
                 {
                     info += $"\n{item}";
-                    info += "\n-----------------------------------";
+                    info += "\n------------------------------------------------";
                 }
             }
             return info;
@@ -50,13 +50,13 @@ namespace Lab6
 
         public string ListConsumables()
         {
-            string info = "\nConsumables -------------------------------";
+            string info = "\nConsumables --------------------------------------";
             foreach (Item item in Contents)
             {
                 if (item is Consumable)
                 {
                     info += $"\n{item}";
-                    info += "\n-----------------------------------";
+                    info += "\n------------------------------------------------";
                 }
             }
             return info;
