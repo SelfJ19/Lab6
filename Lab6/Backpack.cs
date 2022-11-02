@@ -11,7 +11,6 @@ namespace Lab6
     {
         private List<Item> Contents { get; set; }
 
-
         public Backpack()
         {
             Contents = new List<Item>();

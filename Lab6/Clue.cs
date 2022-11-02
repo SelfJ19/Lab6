@@ -16,12 +16,5 @@ namespace Lab6
             PersonInciminated = "";
             Accuracy = false;
         }
-
-        public override string ToString()
-        {
-            string info = base.ToString();
-            
-            return info;
-        }
     }
 }
