@@ -11,21 +11,25 @@ namespace Lab6
     {
         private List<Item> Contents { get; set; }
 
-        public void Add(Item item)
+
+        public Backpack()
         {
             Contents = new List<Item>();
+        }
+        public void Add(Item item)
+        {
             Contents.Add(item);
         }
 
         public string ListWeapons()
         {
-            string info = "";
-            for(int i = 0; i < Contents.Count; i++)
+            string info = "\nWeapons -------------------------------";
+            foreach (Item item in Contents)
             {
-                if(i is Weapon)
+                if (item is Weapon)
                 {
-                    info = base.ToString();
-                    info += "-----------------------------------";
+                    info += $"\n{item}";
+                    info += "\n-----------------------------------";
                 }
             }
             return info;
@@ -33,13 +37,13 @@ namespace Lab6
 
         public string ListClues()
         {
-            string info = "";
-            for(var i = 0; i < Contents.Count; i++)
+            string info = "\nClues -------------------------------";
+            foreach(Item item in Contents)
             {
-                if(Contents[i] is Clue)
+                if(item is Clue)
                 {
-                    info = base.ToString();
-                    info += "-----------------------------------";
+                    info += $"\n{item}";
+                    info += "\n-----------------------------------";
                 }
             }
             return info;
@@ -47,15 +51,15 @@ namespace Lab6
 
         public string ListConsumables()
         {
-            string info = "";
-            for( int i = 0; i < Contents.Count; i++)
+            string info = "\nConsumables -------------------------------";
+            foreach (Item item in Contents)
             {
-                if(i is Consumable)
+                if (item is Consumable)
                 {
-                    info = base.ToString();
-                    info += "-----------------------------------";
+                    info += $"\n{item}";
+                    info += "\n-----------------------------------";
                 }
-            }  
+            }
             return info;
         }
     }

@@ -30,10 +30,10 @@ namespace Lab6
         {
             string info = "";
 
-            info += $"Item name: {Name}";
-            info += $"\n Description: {Description}";
-            info += $"\n Weight: {Weight} pounds";
-            info += $"\n Value: {Value} gold pieces";
+            info += $"Item name: \t{Name}";
+            info += $"\nDescription: \t{Description}";
+            info += $"\nWeight: \t{Weight} pounds";
+            info += $"\nValue: \t\t{Value} gold pieces";
 
             return info;
         }

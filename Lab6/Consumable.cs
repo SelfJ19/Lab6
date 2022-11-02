@@ -13,8 +13,6 @@ namespace Lab6
 
         public Consumable(string name, string description, double weight, double value) : base(name, description, weight, value)
         {
-            HealthEffect = 0;
-            DosesRemaining = 0;
         }
     }
 }
