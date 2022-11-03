@@ -1,4 +1,16 @@
-﻿using System;
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+// Project: Lab 6 Inheritance
+// File Name: Item.cs
+// Description: Represents the Item Object
+// Course: CSCI 1260-001 – Introduction to Computer Science II
+// Author: Jason Self, selfj1@etsu.edu, East Tennessee State University
+// Created: 11/02/2022
+// Copyright: Jason Self, 2022
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
