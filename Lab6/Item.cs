@@ -26,7 +26,7 @@ namespace Lab6
         /// Parameterized constructor
         /// </summary>
         /// <param name="name">used to set Name</param>
-        /// <param name="desrciption">used to set the description</param>
+        /// <param name="description">used to set the description</param>
         /// <param name="weight">used to set Weight</param>
         /// <param name="value">used to set Value</param>
         public Item(string name, string description, double weight, double value)
