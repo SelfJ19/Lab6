@@ -1,8 +1,8 @@
 ﻿////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
 // Project: Lab 6 Inheritance
-// File Name: Consumable.cs
-// Description: Represents the Consumable Object
+// File Name: Clue.cs
+// Description: Represents the Clue Object
 // Course: CSCI 1260-001 – Introduction to Computer Science II
 // Author: Jason Self, selfj1@etsu.edu, East Tennessee State University
 // Created: 11/02/2022
